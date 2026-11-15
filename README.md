@@ -1,4 +1,4 @@
-# lassare-com
+# Lassare
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,130 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-lassare-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://lassare.com/
+Lassare offers an MCP (Model Context Protocol) server that connects AI coding assistants such as Claude Code, Cursor, Gemini CLI, and Copilot with Slack. When an agent reaches a decision point, Lassare routes the question to a Slack direct message, allowing developers to respond from their phone and resume the task. The service targets developers who use AI coding agents and need human‑in‑the‑loop interaction to keep their pipelines moving.
+
+**Areas:** Human-in-the-loop · MCP protocol · Remote agent control · Developer tools
+
+## Lassare on APIs.io
+
+Everything profiled for Lassare is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/lassare-com/](https://apis.io/providers/lassare-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (8)
+
+- [Lassare Admin API](https://apis.io/apis/lassare-com/lassare-com-admin-api/) — The Admin API from Lassare — 3 operation(s) for admin.
+- [Lassare Decision API](https://apis.io/apis/lassare-com/lassare-com-decision-api/) — The Decision API from Lassare — 1 operation(s) for decision.
+- [Lassare Health API](https://apis.io/apis/lassare-com/lassare-com-health-api/) — The Health API from Lassare — 2 operation(s) for health.
+- [Lassare Logs API](https://apis.io/apis/lassare-com/lassare-com-logs-api/) — The Logs API from Lassare — 1 operation(s) for logs.
+- [Lassare Settings API](https://apis.io/apis/lassare-com/lassare-com-settings-api/) — The Settings API from Lassare — 4 operation(s) for settings.
+- [Lassare Slack API](https://apis.io/apis/lassare-com/lassare-com-slack-api/) — The Slack API from Lassare — 3 operation(s) for slack.
+- [Lassare Teams API](https://apis.io/apis/lassare-com/lassare-com-teams-api/) — The Teams API from Lassare — 2 operation(s) for teams.
+- [Lassare Webhook Decisions API](https://apis.io/apis/lassare-com/lassare-com-webhook-decisions-api/) — The Webhook Decisions API from Lassare — 1 operation(s) for webhook decisions.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Lassare Agentic Access](https://apis.io/agentic-access/lassare-com/lassare-com-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [CompanySettings](https://apis.io/schemas/lassare-com/lassare-com-company-settings/)
+- [GatewayStats](https://apis.io/schemas/lassare-com/lassare-com-gateway-stats/)
+- [ProjectSettings](https://apis.io/schemas/lassare-com/lassare-com-project-settings/)
+- [ValidateSlackResponse](https://apis.io/schemas/lassare-com/lassare-com-validate-slack-response/)
+- [WebhookDecisionRequest](https://apis.io/schemas/lassare-com/lassare-com-webhook-decision-request/)
+- [WorkspaceStatusResponse](https://apis.io/schemas/lassare-com/lassare-com-workspace-status-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Lassare Com Context](https://apis.io/jsonld/lassare-com/lassare-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Lassare API Rules](https://apis.io/rules/lassare-com/lassare-com-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Lassare Authentication](https://apis.io/security/lassare-com/lassare-com-authentication/)
+- [Lassare Domain Security](https://apis.io/security/lassare-com/lassare-com-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://lassare.com/)
+- [Documentation](https://lassare.com/en)
+- [Getting started](https://docs.github.com/en/github-cli/github-cli/quickstart)
+- [Blog](https://lassare.com/en/blog)
+- [Terms of service](https://lassare.com/en/terms)
+- [Privacy policy](https://lassare.com/en/privacy)
+- [GitHub](https://github.com/lassare-hq)
+- [Status](https://status.lassare.com)
+
+## API Evangelist rating
+
+**Kin Score 47.6** — developing · rubric 0.27.0 · scored 2026-11-15
+
+| Facet | Score |
+|---|---|
+| Discoverability | 58.9 |
+| Contract quality | 54.0 |
+| Contract governance | 79.1 |
+| Operational transparency | 21.1 |
+| Developer ergonomics | 51.7 |
+| Access clarity | 21.1 |
+
+**Agent readiness 41.1** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | yes |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 24.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/lassare-com/](https://apis.io/providers/lassare-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Lassare: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/lassare-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
